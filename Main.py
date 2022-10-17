@@ -15,7 +15,7 @@ win1.geometry("1193x671")  #Size of the window
 class Truth():
     def __init__(self):
         self.win2 = tkinter.Tk()
-        self.win2.geometry('1900x540')
+        self.win2.geometry('1800x540')
         label = tkinter.Label(self.win2, text=(Questions.truth_question(t_q)), pady=250, padx=100, bg='#faeadd',fg='brown', font=("Helvetica", "30", "bold"))
         label.pack(expand=True,fill=tkinter.X)
         back = tkinter.Button(self.win2, text='Back',padx=100, pady=10, bg='white', command=self.quit)
@@ -29,7 +29,7 @@ class Truth():
 class Dare():
     def __init__(self):
         self.win2 = tkinter.Tk()
-        self.win2.geometry('1900x540')
+        self.win2.geometry('1800x540')
         label = tkinter.Label(self.win2, text=(Questions.dare_question(d_q)), pady=250, padx=100, bg='#faeadd', fg='brown', font=("Helvetica", "30", "bold")) 
         label.pack(expand=True,fill=tkinter.X)
         back = tkinter.Button(self.win2, text='Click and Quit',padx=100,pady=10,bg='white',command=self.quit)
